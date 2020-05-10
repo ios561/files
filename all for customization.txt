@@ -1,3 +1,34 @@
+Customization FreeBSD 
+
+
+# freebsd-update fetch
+# freebsd-update install
+reboot
+
+#pkg
+#pkg update
+#pkg upgrade
+
+#pkg install sudo
+#vi /usr/local/etc/sudoers
+
+	add 
+
+	user_name ALL=(ALL) ALL
+
+#pkg install bash 
+#chsh -s /usr/local/bin/bash  user_name
+
+
+cd /usr/ports/
+#portsnap fetch
+#portsnap extract
+
+
+
+
+
+-----------------------------------------------------------
 
 
 Git
@@ -9,8 +40,10 @@ git config --global user.email "youremail@domain.com"
 git config --list
 
 
+------------------------------------------------------------
+
 VIM
--------------------------------------------------
+
 VIM-PLUG
 
 
